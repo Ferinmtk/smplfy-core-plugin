@@ -19,5 +19,5 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./smplfy-core                    # only deploy plugin core folder
+          local-dir: ./smplfy-core/                    # only deploy plugin core folder
           server-dir: /public_html/wp-content/plugins/smplfy-core-plugin/   # change if needed

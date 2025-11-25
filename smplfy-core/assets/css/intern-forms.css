@@ -1,0 +1,23 @@
+.gform_wrapper {
+    border: 2px solid #0073aa;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f7fbff;
+}
+
+.smplfy-note {
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    background: #e0f7ff;
+    border: 1px solid #0073aa;
+}
+
+.gform_wrapper input[type="submit"],
+.gform_wrapper button[type="submit"] {
+    background: #0073aa !important;
+    color: #fff !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "sblik/smplfy-core-plugin",
+  "description": "Core logic for a unified development approach across multiple plugins",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "simplify small biz",
+      "email": "jayd@maximasoftware.com"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "7.4.3"
+    }
+  },
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.0.0"
+  }
+}

@@ -107,3 +107,6 @@ function smplfy_send_to_webhook($entry, $form) {
 
 /** 🔹 4. GravityPDF Template Registration (Task 3 inside CORE plugin) **/
 add_filter('gravitypdf_template_paths', __NAMESPACE__ . '\\smplfy_register_pdf_templates');
+
+error_log("Core Plugin Updated via GitHub Actions");
+

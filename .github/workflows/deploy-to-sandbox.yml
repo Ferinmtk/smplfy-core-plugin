@@ -1,4 +1,4 @@
-name: Deploy SMPLFY Core Plugin via SFTP
+name: Deploy SMPLFY Core Plugin via FTP
 
 on:
   push:
@@ -17,9 +17,10 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.3.1
         with:
           server: ftp.sblik.com
-          username: ${{ secrets.FTP_USER }}   # ferinmtk@sblik.com
-          password: ${{ secrets.FTP_PASS }}
           port: 21
           protocol: ftp
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
           local-dir: ./smplfy-core
           server-dir: /public_html/wp-content/plugins/smplfy-core-plugin/
+          dry-run: false      # <– optional but recommended

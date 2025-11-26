@@ -21,6 +21,6 @@ jobs:
           protocol: ftp
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
-          local-dir: ./smplfy-core
+          local-dir: ./smplfy-core/     # <–– fixed
           server-dir: /public_html/wp-content/plugins/smplfy-core-plugin/
-          dry-run: false      # <– optional but recommended
+          dry-run: false

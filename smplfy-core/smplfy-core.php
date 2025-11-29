@@ -10,7 +10,7 @@
  * Plugin Name: Smplfy Core
  * Version: 1.0.1
  * Description: Core logic for a unified development approach across multiple plugins.
- * Author: Ferrin
+ * Author: Simplify
  * Author URI: https://simplifybiz.com
  * Requires PHP: 7.4
  */

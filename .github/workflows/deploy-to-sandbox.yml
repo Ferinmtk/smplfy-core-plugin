@@ -22,5 +22,5 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           local-dir: ./smplfy-core/
-          server-dir: /public_html/wp-content/plugins/smplfy-core-plugin/
+          server-dir: /public_html/wp-content/plugins/smplfy-core/
           dry-run: false      # <– optional but recommended

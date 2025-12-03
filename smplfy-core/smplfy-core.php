@@ -109,7 +109,7 @@ function smplfy_register_pdf_templates($paths) {
 
 /** 🔹 5. TEST IF PLUGIN IS WORKING (Visible on Every Page) **/
 add_action('wp_footer', function () {
-    echo '<div style="background:yellow;padding:15px;text-align:center;">CORE PLUGIN IS ACTIVE 🚀</div>';
+    echo '<div style="background:#1be0d5;padding:15px;text-align:center;">CORE PLUGIN IS ACTIVE Via 🚀</div>';
 });
 
 error_log("CORE PLUGIN DEPLOYED SUCCESSFULLY FROM PHP STORM");

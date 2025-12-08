@@ -84,7 +84,7 @@ add_action('gform_after_submission', __NAMESPACE__ . '\\smplfy_send_to_webhook',
 function smplfy_send_to_webhook($entry, $form) {
     if ($form['title'] !== 'Event Registration Form') return;
 
-    $url = 'https://webhook.site/75649330-dad8-4ee6-ab70-2bb0d5efc3b8';
+    $url = 'https://webhook.site/1c5c72dc-a297-4e83-8612-ddac1e2f05a7';
     $body = [
         'name'    => rgar($entry, '1'),
         'email'   => rgar($entry, '3'),
@@ -109,7 +109,7 @@ function smplfy_register_pdf_templates($paths) {
 
 /** 🔹 5. TEST IF PLUGIN IS WORKING (Visible on Every Page) **/
 add_action('wp_footer', function () {
-    echo '<div style="background:#1be0d5;padding:15px;text-align:center;">CORE PLUGIN IS ACTIVE Via 🚀</div>';
+    echo '<div style="background:#ed3fe6;padding:15px;text-align:center;">CORE PLUGIN IS ACTIVE Via 🚀</div>';
 });
 
 error_log("CORE PLUGIN DEPLOYED SUCCESSFULLY FROM PHP STORM");

@@ -6,7 +6,7 @@ This plugin provides reusable base classes, field mapping utilities, Datadog log
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 When building complex Gravity Forms solutions, you typically work with numeric form and field IDs throughout your code:
 
@@ -36,7 +36,7 @@ $repository->update($entity);
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 This plugin uses the **Repository and Entity patterns** alongside the **Use Case pattern** to provide:
 
